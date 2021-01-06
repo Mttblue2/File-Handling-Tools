@@ -22,7 +22,6 @@ public class DeleteFilesNames
 				File file = new File (names.nextLine());
 				
 				
-				System.out.println(file.getName());
 				if (!file.getName().equals("names.txt"))
 					file.delete();
 			}
